@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: Nunito, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+label {
+display: block;
+margin-bottom: 10px;
+color: #555; }
+
+input[type="number"] {
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+border: none;
+background-color: #f2f2f2;
+margin-bottom: 20px;
+font-size: 16px; }
+  
+
+input[type="submit"] {
+background-color: #3f6581;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+  
+  input[type="submit"]:hover {
+background-color: #04112e; }
+  
+
+
+#interest, #years, #amount {
+position: relative;
+width:80%;
+height: 30px;
+margin: 10px;
+border-radius: 5px;
+background-color: #ffffff;
+background: #e5eff6;
+border-bottom: 2%;
+align-items: center;
+}
+
+#years {
+width:80%;
+height: 30px;
+}
+
+#interest {
+width:80%; } 
+
+#amount {
+width:80%;
+height: 30px; }
+
+    
+#num3 {
+width:335px;
+border-radius: 5px;
+background: #fefefe;
+background-color: #d3d3d3;
+height: 30px;
+margin: 10px;
+border-bottom: 2%;
+filter: drop-shadow(0px 4px 4px rgba(250, 250, 250, 0.25));
+}
+#operator_btns {
+position: relative;
+width: 150px;
+margin-left: 10px;
+filter: drop-shadow(0px 4px 4px rgba(250, 250, 250, 0.25));
+}
+
+#img {
+width: 50px;
+}
+
+.text {
+font-family: 'Nunito', Courier, monospace;
+color:#5f5d5d;
+justify-content: left;
+align-self: start;
+}
+
+.textblack, .num3text{
+font-family: 'Nunito', Courier, monospace;
+font-weight: 600;
+color:#212121;
+justify-content: left;
+align-self: start; }
+
+.years {
+font-family: 'Nunito', Courier, monospace;
+margin-left: 70%;
+color:#5f5d5d; 
+}
+
+
+/*
+
+
+.slidecontainer {
+    width: 30%; }
+  
+.slider {
+-webkit-appearance: none;
+width: 100%;
+height: 15px;
+border-radius: 5px;
+background: #d3d3d3;
+outline: none;
+opacity: 0.7;
+-webkit-transition: .2s;
+transition: opacity .2s; }
+  
+.slider:hover {
+opacity: 1;
+}
+  
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 25px;
+height: 25px;
+border-radius: 50%;
+background: #85aef0;
+cursor: pointer; }
+  
+.slider::-moz-range-thumb {
+width: 25px;
+height: 25px;
+border-radius: 50%;
+background: #85aef0;
+cursor: pointer; }
+*/
